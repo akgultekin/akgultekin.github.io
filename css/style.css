@@ -1,0 +1,50 @@
+body {
+    background-color: #050505 !important;
+    overflow: hidden;
+}
+
+.intro-name {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    right: 50%;
+    bottom: 0%;
+    white-space: nowrap;
+    opacity: 0;
+    animation: name 5s 3s;
+    animation-fill-mode: forwards;
+}
+
+.intro-line {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    user-select: none;
+    animation: 
+        moveUp 1.5s,
+        moveRight 2s 1.5s,
+        moveLeft 5s 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+    0% {bottom: 50%}
+    100% {top: 49%}
+}
+
+@keyframes moveRight {
+    0% {right: 70%}
+    100% {left: 70%; rotate: -20deg; transform-origin: 0% 40%;}
+}
+
+@keyframes moveLeft {
+    0% {right: 50%}
+    100% {left: 49%}
+}
+
+@keyframes name {
+    0% {opacity: 0%}
+    100% {opacity: 100%;}
+}
