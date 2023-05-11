@@ -10,8 +10,78 @@ body {
     right: 50%;
     bottom: 0%;
     white-space: nowrap;
+    animation-fill-mode: forwards;
+}
+
+.firstname-a {
     opacity: 0;
-    animation: name 5s 3s;
+    animation: appear 2.5s 4.6s;
+    animation-fill-mode: forwards;
+}
+
+.firstname-k {
+    opacity: 0;
+    animation: appear 3s 4.2s;
+    animation-fill-mode: forwards;
+}
+
+.firstname-i {
+    opacity: 0;
+    animation: appear 3s 4.1s;
+    animation-fill-mode: forwards;
+}
+
+.firstname-n {
+    opacity: 0;
+    animation: appear 3s 3.8s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-g {
+    opacity: 0;
+    animation: appear 3s 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-u {
+    opacity: 0;
+    animation: appear 3s 3.3s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-l {
+    opacity: 0;
+    animation: appear 3s 3.2s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-t {
+    opacity: 0;
+    animation: appear 3s 3.1s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-e {
+    opacity: 0;
+    animation: appear 3s 3s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-k {
+    opacity: 0;
+    animation: appear 3s 2.9s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-i {
+    opacity: 0;
+    animation: appear 3s 2.8s;
+    animation-fill-mode: forwards;
+}
+
+.lastname-n {
+    opacity: 0;
+    animation: appear 3s 2.7s;
     animation-fill-mode: forwards;
 }
 
@@ -25,7 +95,7 @@ body {
     animation: 
         moveUp 1.5s,
         moveRight 2s 1.5s,
-        moveLeft 5s 1.5s;
+        moveLeft 5s 1.3s;
     animation-fill-mode: forwards;
 }
 
@@ -41,10 +111,10 @@ body {
 
 @keyframes moveLeft {
     0% {right: 50%}
-    100% {left: 49%}
+    100% {left: 49%;}
 }
 
-@keyframes name {
+@keyframes appear {
     0% {opacity: 0%}
-    100% {opacity: 100%;}
+    100% {opacity: 100%}
 }
