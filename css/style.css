@@ -6,113 +6,85 @@ body {
 .intro-name {
     position: absolute;
     top: 50%;
-    left: 47%;
+    left: 45%;
     right: 50%;
     bottom: 0%;
     white-space: nowrap;
     animation-fill-mode: forwards;
+    user-select: none;
 }
 
 .firstname-a {
     opacity: 0;
-    animation: appear 2.5s 4.6s;
+    animation: appear 3s 1s;
     animation-fill-mode: forwards;
 }
 
 .firstname-k {
     opacity: 0;
-    animation: appear 3s 4.2s;
+    animation: appear 3s 1.2s;
     animation-fill-mode: forwards;
 }
 
 .firstname-i {
     opacity: 0;
-    animation: appear 3s 4.1s;
+    animation: appear 3s 1.4s;
     animation-fill-mode: forwards;
 }
 
 .firstname-n {
     opacity: 0;
-    animation: appear 3s 3.8s;
+    animation: appear 3s 1.6s;
     animation-fill-mode: forwards;
 }
 
 .lastname-g {
     opacity: 0;
-    animation: appear 3s 3.5s;
+    animation: appear 2s 2.6s;
     animation-fill-mode: forwards;
 }
 
 .lastname-u {
     opacity: 0;
-    animation: appear 3s 3.3s;
+    animation: appear 2s 2.8s;
     animation-fill-mode: forwards;
 }
 
 .lastname-l {
     opacity: 0;
-    animation: appear 3s 3.2s;
+    animation: appear 2s 3s;
     animation-fill-mode: forwards;
 }
 
 .lastname-t {
     opacity: 0;
-    animation: appear 3s 3.1s;
+    animation: appear 2s 3.2s;
     animation-fill-mode: forwards;
 }
 
 .lastname-e {
     opacity: 0;
-    animation: appear 3s 3s;
+    animation: appear 2s 3.4s;
     animation-fill-mode: forwards;
 }
 
 .lastname-k {
     opacity: 0;
-    animation: appear 3s 2.9s;
+    animation: appear 2s 3.6s;
     animation-fill-mode: forwards;
 }
 
 .lastname-i {
     opacity: 0;
-    animation: appear 3s 2.8s;
+    animation: appear 2s 3.8s;
     animation-fill-mode: forwards;
 }
 
 .lastname-n {
     opacity: 0;
-    animation: appear 3s 2.7s;
+    animation: appear 2s 4s;
     animation-fill-mode: forwards;
-}
-
-.intro-line {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    right: 50%;
-    bottom: 0%;
-    user-select: none;
-    animation: 
-        moveUp 1.5s,
-        moveRight 2s 1.5s,
-        moveLeft 5s 1.3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes moveUp {
-    0% {bottom: 50%}
-    100% {top: 49%}
-}
-
-@keyframes moveRight {
-    0% {right: 70%}
-    100% {left: 70%; rotate: -20deg; transform-origin: 0% 40%;}
-}
-
-@keyframes moveLeft {
-    0% {right: 50%}
-    100% {left: 49%;}
-}
+}   
 
 @keyframes appear {
     0% {opacity: 0%}
