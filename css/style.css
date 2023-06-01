@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "font";
+    src: url("/font/font.ttf");
+}
+
+body {
+    background-color: black !important;
+    overflow-x: hidden;
+}
+
+.main-button {
+    position: absolute;
+}
+
+.main-button > h1 {
+    font-family: "font";
+    font-size: 4vw;
+    transition: 0.5s;
+}
+
+button > h1:hover {
+    font-size: 4.5vw;
+}
+
+.btn {
+    color: red;
+}
+
+.me {
+    /* background-color: red; */
+    width: 25vw;
+    float: left;
+}
+
+.skills {
+    /* background-color: yellow; */
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 25vw;
+    float: left;
+}
+
+.projects {
+    /* background-color: green; */
+    border-right: 1px solid white;
+    width: 30vw;
+    float: left;
+}
+
+.contact {
+    /* background-color: purple; */
+    width: 30vw;
+    float: left;
+}
