@@ -27,8 +27,8 @@ body {
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
-    background: url("/img/selfie.png");
-    background-size: cover;
+    background: url("/img/me.png");
+    background-size: cover 100%;
     background-repeat: no-repeat;
     background-position: center;
     filter: brightness(30%);
@@ -42,14 +42,12 @@ body {
 }
 
 .me-text:hover {
-    font-size: 10vw;
+    font-size: 15vw;
     transform: rotate(0deg);
-    translate: -50% 0%;
 }
 
 .me:hover {
     border-image: linear-gradient(black, white, black) 1;
-    background-position: left;
     filter: brightness(100%);
 }
 
@@ -60,8 +58,8 @@ body {
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
-    background: url("/img/skill.png");
-    background-size: contain;
+    background: url("/img/skills.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     filter: brightness(30%);
@@ -75,14 +73,12 @@ body {
 }
 
 .skills-text:hover {
-    font-size: 10vw;
+    font-size: 9vw;
     transform: rotate(0deg);
-    translate: 0% 100%;
 }
 
 .skills:hover {
     border-image: linear-gradient(black, white, black) 1;
-    background-position-y: 40%;
     filter: brightness(100%);
 }
 
@@ -92,6 +88,10 @@ body {
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
+    background: url("/img/projects.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     filter: brightness(30%);
     width: 30vw;
     float: left;
@@ -103,7 +103,8 @@ body {
 }
 
 .projects-text:hover {
-    font-size: 13vw;
+    font-size: 8vw;
+    transform: rotate(0deg);
 }
 
 .projects:hover {
@@ -116,6 +117,11 @@ body {
     border-left: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
+    image-rendering: optimizeQuality;
+    background: url("/img/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     filter: brightness(30%);
     width: 30vw;
     float: left;
@@ -127,7 +133,8 @@ body {
 }
 
 .contact-text:hover {
-    font-size: 14vw;
+    font-size: 9vw;
+    transform: rotate(0deg);
 }
 
 .contact:hover {
