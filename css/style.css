@@ -14,12 +14,7 @@ body {
 
 .main-button > h1 {
     font-family: "font";
-    font-size: 4vw;
     transition: 0.5s;
-}
-
-button > h1:hover {
-    font-size: 4.5vw;
 }
 
 .btn {
@@ -28,27 +23,114 @@ button > h1:hover {
 
 .me {
     /* background-color: red; */
+    z-index: 1;
+    border-right: 1px solid white;
+    border-image: linear-gradient(black, gray, black) 1;
+    transition: 0.5s;
+    background: url("/img/selfie.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(30%);
     width: 25vw;
     float: left;
+}
+
+.me-text {
+    font-size: 16vw;
+    transform: rotate(90deg);
+}
+
+.me-text:hover {
+    font-size: 10vw;
+    transform: rotate(0deg);
+    translate: -50% 0%;
+}
+
+.me:hover {
+    border-image: linear-gradient(black, white, black) 1;
+    background-position: left;
+    filter: brightness(100%);
 }
 
 .skills {
     /* background-color: yellow; */
+    z-index: 0;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    border-image: linear-gradient(black, gray, black) 1;
+    transition: 0.5s;
+    background: url("/img/skill.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(30%);
     width: 25vw;
     float: left;
 }
 
+.skills-text {
+    font-size: 14vw;
+    transform: rotate(90deg);
+}
+
+.skills-text:hover {
+    font-size: 10vw;
+    transform: rotate(0deg);
+    translate: 0% 100%;
+}
+
+.skills:hover {
+    border-image: linear-gradient(black, white, black) 1;
+    background-position-y: 40%;
+    filter: brightness(100%);
+}
+
 .projects {
     /* background-color: green; */
+    border-left: 1px solid white;
     border-right: 1px solid white;
+    border-image: linear-gradient(black, gray, black) 1;
+    transition: 0.5s;
+    filter: brightness(30%);
     width: 30vw;
     float: left;
 }
 
+.projects-text {
+    font-size: 12vw;
+    transform: rotate(90deg);
+}
+
+.projects-text:hover {
+    font-size: 13vw;
+}
+
+.projects:hover {
+    border-image: linear-gradient(black, white, black) 1;
+    filter: brightness(100%);
+}
+
 .contact {
     /* background-color: purple; */
+    border-left: 1px solid white;
+    border-image: linear-gradient(black, gray, black) 1;
+    transition: 0.5s;
+    filter: brightness(30%);
     width: 30vw;
     float: left;
+}
+
+.contact-text {
+    font-size: 13vw;
+    transform: rotate(90deg);
+}
+
+.contact-text:hover {
+    font-size: 14vw;
+}
+
+.contact:hover {
+    border-image: linear-gradient(black, white, black) 1;
+    filter: brightness(100%);
 }
