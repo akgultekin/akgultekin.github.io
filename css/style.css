@@ -8,12 +8,15 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-family: "font";
+}
+
 .main-button {
     position: absolute;
 }
 
 .main-button > h1 {
-    font-family: "font";
     transition: 0.5s;
 }
 
@@ -140,4 +143,23 @@ body {
 .contact:hover {
     border-image: linear-gradient(black, white, black) 1;
     filter: brightness(100%);
+}
+
+/*-----------------------------------------------------------------*/
+
+.about {
+    border-top: 1px solid white;
+    border-image: linear-gradient(to right, black, white, black) 1;
+}
+
+.about-title {
+    font-size: 10vw;
+}
+
+.aboutme-text {
+    font-size: 3vw;
+}
+
+.myselfie {
+    /* background-color: green;  */
 }
