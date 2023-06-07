@@ -39,12 +39,13 @@ h1 {
     float: left;
 }
 
+
 .me-text {
     font-size: 16vw;
     transform: rotate(90deg);
 }
 
-.me-text:hover {
+.me-text-animation {
     font-size: 15vw;
     transform: rotate(0deg);
 }
@@ -75,7 +76,7 @@ h1 {
     transform: rotate(90deg);
 }
 
-.skills-text:hover {
+.skills-text-animation {
     font-size: 9vw;
     transform: rotate(0deg);
 }
@@ -105,7 +106,7 @@ h1 {
     transform: rotate(90deg);
 }
 
-.projects-text:hover {
+.projects-text-animation {
     font-size: 8vw;
     transform: rotate(0deg);
 }
@@ -135,7 +136,7 @@ h1 {
     transform: rotate(90deg);
 }
 
-.contact-text:hover {
+.contact-text-animation {
     font-size: 9vw;
     transform: rotate(0deg);
 }
@@ -154,10 +155,11 @@ h1 {
 
 .about-title {
     font-size: 10vw;
+    
 }
 
-.aboutme-text {
-    font-size: 3vw;
+.about-text {
+    font-size: 4vw;
 }
 
 .myselfie {
