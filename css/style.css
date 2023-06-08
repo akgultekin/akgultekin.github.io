@@ -30,10 +30,6 @@ h1 {
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
-    background: url("/img/me.png");
-    background-size: cover 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     filter: brightness(30%);
     width: 25vw;
     float: left;
@@ -62,10 +58,6 @@ h1 {
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
-    background: url("/img/skills.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     filter: brightness(30%);
     width: 25vw;
     float: left;
@@ -92,10 +84,6 @@ h1 {
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
-    background: url("/img/projects.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     filter: brightness(30%);
     width: 30vw;
     float: left;
@@ -121,11 +109,6 @@ h1 {
     border-left: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
     transition: 0.5s;
-    image-rendering: optimizeQuality;
-    background: url("/img/contact.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     filter: brightness(30%);
     width: 30vw;
     float: left;
@@ -148,18 +131,8 @@ h1 {
 
 /*-----------------------------------------------------------------*/
 
-.about {
-    border-top: 1px solid white;
-    border-image: linear-gradient(to right, black, white, black) 1;
-}
-
-.about-title {
-    font-size: 10vw;
-    
-}
-
 .about-text {
-    font-size: 4vw;
+    font-size: 7vw;
 }
 
 .myselfie {
