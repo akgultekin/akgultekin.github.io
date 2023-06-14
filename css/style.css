@@ -7,6 +7,11 @@ body {
     background-color: black !important;
     overflow-x: hidden;
     font-family: "font" !important;
+    user-select: none;
+}
+
+img {
+    image-rendering: optimizeQuality;
 }
 
 .main-button {
