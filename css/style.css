@@ -6,10 +6,7 @@
 body {
     background-color: black !important;
     overflow-x: hidden;
-}
-
-h1 {
-    font-family: "font";
+    font-family: "font" !important;
 }
 
 .main-button {
@@ -131,10 +128,36 @@ h1 {
 
 /*-----------------------------------------------------------------*/
 
-.about-text {
-    font-size: 7vw;
+.title {
+    font-size: 11vw;
 }
 
-.myselfie {
-    /* background-color: green;  */
+/*-----------------------------------------------------------------*/
+
+.about-text {
+    font-size: 6.4vw;
+}
+
+/*-----------------------------------------------------------------*/
+
+.html-text {
+    font-size: 5vw;
+}
+
+.css-text {
+    font-size: 5vw;
+}
+
+.js-text {
+    font-size: 5vw;
+}
+
+/*-----------------------------------------------------------------*/
+
+.discord-title {
+    font-size: 5vw;
+}
+
+.discord-text {
+    font-size: 2vw;
 }

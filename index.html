@@ -12,7 +12,11 @@
 </head>
 <body>
 
-    <section class="main d-flex h-100 justify-content-center">
+    <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center">
+        <h1 class="title user-select-none">NAV</h1>
+    </div>
+
+    <section class="main-section d-flex h-75 justify-content-center">
 
         <div class="me d-flex align-items-center justify-content-center">   
             <button type="button" class="main-button btn btn-lg btn-transparent border-0 text-white">
@@ -40,49 +44,107 @@
 
     </section>
 
-    <div class="about container-fluid d-flex h-100">
+    <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center">
+        <h1 class="title user-select-none">ME</h1>
+    </div>
+
+    <section class="me-section d-flex h-75 justify-content-center">
+
         <div class="row">
-            <div class="col d-flex align-items-center justify-content-center text-white">
-                <h1 class="about-text user-select-none p-5">
+            <div class="about col">
+                <h1 class="about-text text-white user-select-none p-5">
                     Hi. My name is Akin Gultekin and I am 17. I am a lazy guy who likes computers.
                 </h1>
             </div>
             <div class="myselfie col">
-                <img class="img-fluid" src="/img/me.png">
+                <!-- <img class="img-fluid" src="/img/me.png"> -->
             </div>
         </div>
-    </div>
 
-    <div class="logos container d-flex h-100">
+    </section>
+
+    <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center">
+        <h1 class="title user-select-none">SKILLS</h1>
+    </div>
+    
+    <section class="skills-section d-flex h-75 justify-content-center">
+
         <div class="row">
-            <div class="col d-flex align-items-center justify-content-center">
+            <div class="html col">
                 <div class="card bg-transparent">
-                    <img class="card-img-top" src="/img/html.png">
-                    <div class="card-body text-center text-white">
-                        <h1 class="card-title">HTML</h1>
+                    <img class="card-img-top img-fluid" src="/img/html.png" style="max-height: 50vh">
+                    <div class="card-body text-white text-center">
+                        <h1 class="html-text">HTML</h1>
+                        <div class="progress" style="height: 5vh">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <h1 class="m-1">I KNOW THIS</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col d-flex align-items-center justify-content-center">
+            <div class="css col">
                 <div class="card bg-transparent">
-                    <img class="card-img-top" src="/img/css.png">
-                    <div class="card-body text-center text-white">
-                        <h1 class="card-title">CSS</h1>
+                    <img class="card-img-top img-fluid" src="/img/css.png" style="max-height: 50vh">
+                    <div class="card-body text-white text-center">
+                        <h1 class="css-text">CSS</h1>
+                        <div class="progress" style="height: 5vh">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <h1 class="m-1">A LOT OF KNOWLEDGE</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col d-flex align-items-center justify-content-center">
+            <div class="js col">
                 <div class="card bg-transparent">
-                    <img class="card-img-top" src="/img/js.png">
-                    <div class="card-body text-center text-white">
-                        <h1 class="card-title">JS</h1>
+                    <img class="card-img-top img-fluid" src="/img/js.png" style="max-height: 50vh">
+                    <div class="card-body text-white text-center">
+                        <h1 class="js-text">JS</h1>
+                        <div class="progress" style="height: 5vh">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <h1 class="m-1">I'M AVERAGE AT IT</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+    </section>
+
+    <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center">
+        <h1 class="title user-select-none">CONTACT</h1>
     </div>
 
+    <section class="contact-section d-flex h-75 justify-content-center">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="discord col-3">
+                <div class="card bg-transparent">
+                    <img class="card-img-top img-fluid text-center" src="/img/discord.png">
+                    <div class="card-body text-white text-center">
+                        <h1 class="discord-title">DISCORD</h1>
+                        <p class="discord-text">Azzet#9246</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="instagram col-3">
+                <div class="card bg-transparent">
+                    <img class="card-img-top img-fluid" src="/img/instagram.png">
+                    <div class="card-body text-white text-center">
+                        <h1 class="discord-title">INSTAGRAM</h1>
+                        <p class="discord-text">Azzet#9246</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="/js/main.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
