@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "font";
+    src: url("/font/font.ttf");
+}
+
+body {
+    background-color: black !important;
+    overflow-x: hidden;
+    font-family: "font" !important;
+    user-select: none;
+}
+
+span {
+    font-size: 15vw;
+}
+
+.firstname {
+    opacity: 0;
+    animation: appearA 0s 1s;
+    animation-fill-mode: forwards;
+}
+
+.lastname {
+    opacity: 0;
+    animation: appearB 0s 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appearA {
+    0% {opacity: 0}
+    100% {opacity: 100}
+}
+
+@keyframes appearB {
+    0% {opacity: 0}
+    100% {opacity: 100}
+}
