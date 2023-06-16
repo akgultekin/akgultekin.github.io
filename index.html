@@ -13,7 +13,7 @@
 <body>
 
     <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center">
-        <h1 class="title">NAV</h1>
+        <h1 class="title">NAVIGATE</h1>
     </div>
 
     <section class="main-section d-flex h-75 justify-content-center">
@@ -44,28 +44,31 @@
 
     </section>
 
-    <div class="container-fluid h-75"></div>
+    <div class="containerd-flex h-25"></div>
 
     <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center" id="me">
         <h1 class="title">ME</h1>
     </div>
 
-    <section class="me-section d-flex h-75 justify-content-center">
+    <section class="me-section d-flex justify-content-center">
 
         <div class="row">
-            <div class="about col">
-                <h1 class="about-text text-white p-5">
+            <div class="col-md"></div>
+            <div class="col-md-4">
+                <h1 class="about-text text-white">
                     Hi. My name is Akin Gultekin and I am 17. I am a lazy guy who likes computers.
                 </h1>
             </div>
-            <div class="myselfie col">
-                <!-- <img class="img-fluid" src="/img/me.png"> -->
+            <div class="col-md-4">
+                <img class="img-fluid" src="/img/me.png">
+            </div>
+            <div class="col-md">
             </div>
         </div>
 
     </section>
 
-    <div class="container-fluid h-75"></div>
+    <div class="containerd-flex h-25"></div>
 
     <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center" id="skills">
         <h1 class="title">SKILLS</h1>
@@ -74,7 +77,7 @@
     <section class="skills-section d-flex h-75 justify-content-center">
 
         <div class="row">
-            <div class="html col-md">
+            <div class="col-md">
                 <div class="card bg-transparent">
                     <img class="card-img-top img-fluid" src="/img/html.png">
                     <div class="card-body text-white text-center">
@@ -88,7 +91,7 @@
                     </div>
                 </div>
             </div>
-            <div class="css col-md">
+            <div class="col-md">
                 <div class="card bg-transparent">
                     <img class="card-img-top img-fluid" src="/img/css.png">
                     <div class="card-body text-white text-center">
@@ -102,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="js col-md">
+            <div class="col-md">
                 <div class="card bg-transparent">
                     <img class="card-img-top img-fluid" src="/img/js.png">
                     <div class="card-body text-white text-center">
@@ -120,60 +123,102 @@
 
     </section>
 
-    <div class="container-fluid h-75"></div>
+    <div class="containerd-flex h-25"></div>
 
     <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center" id="projects">
         <h1 class="title">PROJECTS</h1>
     </div>
 
-    <section class="projects-section d-flex h-100 justify-content-center">
+    <section class="projects-section d-flex justify-content-center">
 
         <div class="row row-cols row-cols-md-2 g-0">
             <div class="col-md">
               <div class="card bg-transparent">
-                <img src="/img/projects/higherlower.png" class="card-img-top img-fluid rounded-0">
+                <img src="/img/projects/higherlower.png" class="card-img-top img-fluid rounded-0" style="height: 50vh;">
                 <div class="card-body text-white text-center">
-                  <h1 class="card-title">HIGHER OR LOWER</h1>
+                  <h1 class="project-title">HIGHER OR LOWER</h1>
+                  <p class="project-text">
+                    A DICE GAME WHERE GUESS BETWEEN HIGHER AND LOWER ON HOW MUCH YOUR OPPONENT
+                    HAS THROWN. <br>
+                    YOU TAKE TURNS UNTIL ONE HAS SCORED 5 POINTS AND WINS!
+                  </p>
+                  <button class="project-button higherlower-button">
+                    <h1>GO TO GITHUB PAGE</h1>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="col-md">
                 <div class="card bg-transparent">
-                  <img src="/img/projects/escaperoom.png" class="card-img-top img-fluid rounded-0">
+                  <img src="/img/projects/escaperoom.png" class="card-img-top img-fluid rounded-0" style="height: 50vh;">
                   <div class="card-body text-white text-center">
-                    <h1 class="card-title">ESCAPE ROOM</h1>
+                    <h1 class="project-title">ESCAPE ROOM</h1>
+                    <p class="project-text">
+                        A HORROR ESCAPE ROOM GAME WHERE YOU TRY TO SOLVE <br>
+                        PUZZLES TO UNLOCK NEW ROOMS AND ESCAPE FROM THE BUILDING.
+                    </p>
+                    <button class="project-button escaperoom-button">
+                        <h1>GO TO GITHUB PAGE</h1>
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="col-md">
                 <div class="card bg-transparent">
-                  <img src="/img/projects/tictactoe.png" class="card-img-top img-fluid rounded-0">
+                  <img src="/img/projects/tictactoe.png" class="card-img-top img-fluid rounded-0" style="height: 50vh;">
                   <div class="card-body text-white text-center">
-                    <h1 class="card-title">TIC TAC TOE</h1>
+                    <h1 class="project-title">TIC TAC TOE</h1>
+                    <p class="project-text">
+                        A TIC TAC TOE GAME WHERE I MADE MY OWN AI TO GO AGAINST <br>
+                        AND GAVE IT AN AESTHETIC LOOK TO IT.
+                    </p>
+                    <button class="project-button tictactoe-button">
+                        <h1>GO TO GITHUB PAGE</h1>
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="col-md">
                 <div class="card bg-transparent">
-                  <img src="/img/projects/windows10.png" class="card-img-top img-fluid rounded-0">
+                  <img src="/img/projects/windows10.png" class="card-img-top img-fluid rounded-0" style="height: 50vh;">
                   <div class="card-body text-white text-center">
-                    <h1 class="card-title">WINDOWS 10</h1>
+                    <h1 class="project-title">WINDOWS 10</h1>
+                    <p class="project-text">
+                        I MADE WINDOWS 10 IN HTML. THIS ACTS LIKE THE SAME AS WINDOWS 10, <br>
+                        BUT IT HAS LESS THINGS AND IT'S WAY FASTER.
+                    </p>
+                    <button class="project-button windows10-button">
+                        <h1>GO TO GITHUB PAGE</h1>
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="col-md">
                 <div class="card bg-transparent">
-                  <img src="/img/projects/webcatalogus.png" class="card-img-top img-fluid rounded-0">
+                  <img src="/img/projects/webcatalogus.png" class="card-img-top img-fluid rounded-0" style="height: 50vh;">
                   <div class="card-body text-white text-center">
-                    <h1 class="card-title">WEBCATALOG</h1>
+                    <h1 class="project-title">WEBCATALOG</h1>
+                    <p class="project-text">
+                        MY PAGE OF A FORMULA 1 SITE ABOUT READING INFORMATION OF CARS. 
+                    </p>
+                    <button class="project-button webcatalog-button">
+                        <h1>GO TO GITHUB PAGE</h1>
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="col-md">
                 <div class="card bg-transparent">
-                  <img src="/img/projects/dashboard.png" class="card-img-top img-fluid rounded-0">
+                  <img src="/img/projects/dashboard.png" class="card-img-top img-fluid rounded-0" style="height: 50vh;">
                   <div class="card-body text-white text-center">
-                    <h1 class="card-title">DASHBOARD</h1>
+                    <h1 class="project-title">DASHBOARD</h1>
+                    <p class="project-text">
+                        MY DASHBOARD PAGE OF POKEMONS WHERE YOU CAN SEE <br>
+                        HOW MANY STATS EACH POKEMON HAS. 
+                    </p>
+                    <button class="project-button dashboard-button">
+                        <h1>GO TO GITHUB PAGE</h1>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -181,8 +226,7 @@
           
     </section>
 
-    <div class="container-fluid h-75"></div>
-    <div class="container-fluid h-75"></div>
+    <div class="containerd-flex h-25"></div>
 
     <div class="container-fluid d-flex h-25 justify-content-center align-items-center text-white text-center" id="contact">
         <h1 class="title">CONTACT</h1>
