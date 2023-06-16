@@ -15,8 +15,6 @@ const skillsSection = document.querySelector("#skills");
 const projectsSection = document.querySelector("#projects");
 const contactSection = document.querySelector("#contact");
 
-const fadeIn = document.querySelector(".fadeIn");
-
 me.addEventListener("mouseover", meHoverAnimation);
 me.addEventListener("mouseout", meDisableAnimation);
 me.addEventListener("click", scrollToMe);
@@ -45,6 +43,10 @@ function meDisableAnimation() {
 
 function scrollToMe() {
     meSection.scrollIntoView({behavior: "smooth"});
+}
+
+function viewMe() {
+    console.log("it works!");
 }
 
 function skillsHoverAnimation() {
@@ -87,8 +89,4 @@ function contactDisableAnimation() {
 
 function scrollToContact() {
     contactSection.scrollIntoView({behavior: "smooth"});
-}
-
-function viewMe() {
-    meSection.classList.add("")
 }
