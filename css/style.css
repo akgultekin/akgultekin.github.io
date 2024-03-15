@@ -37,7 +37,6 @@ img {
     float: left;
 }
 
-
 .me-text {
     font-size: 16vw;
     transform: rotate(90deg);
@@ -54,7 +53,6 @@ img {
 }
 
 .skills {
-    /* background-color: yellow; */
     z-index: 0;
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -81,7 +79,6 @@ img {
 }
 
 .projects {
-    /* background-color: green; */
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-image: linear-gradient(black, gray, black) 1;
@@ -141,6 +138,10 @@ img {
 
 .about-text {
     font-size: 6.4vw;
+}
+
+.cv-text {
+    font-size: 6vw;
 }
 
 /*-----------------------------------------------------------------*/
